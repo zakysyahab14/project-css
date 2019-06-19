@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 234px;
+    width: 100%;
+}
+
+#top-background {
+    background-image: url(./assets/image/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+.content {
+    background-image: url('./assets/image/background.png');
+    height: 100%;
+    margin-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+
+}
+
+.left-content {
+    float: left;
+    text-align: center;
+    width: 50%;
+    min-height: 700px;
+    border: 2px;
+    
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50%;
+    margin-top:150px;
+
+}
+
+.right-content {
+    float: left;
+    width: 50%;
+    min-height: 700px;
+    border: 2px;
+    display; flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.content {
+    margin: 0%;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+
+
+.navigation {
+    width: 100%;
+   
+    border: 1px solid;
+    font-family: 'Acme', sans-serif;    font-size: 36px;
+    color: black;
+}
+.navigation ul a {
+    color: black;
+    text-decoration: none;
+}
+.navigation ul li {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    color: black;
+    
+}
+.navigation ul li:hover {
+    background-color: white;
+    color: black;
+    }
+
+.navigation ul li ul {
+    display: none;
+}
+.navigation ul li:hover ul {
+    display: block;
+}
+.navigation ul li ul li {
+    background-color: silver;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    color: black;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    background-color: grey;
+}
+.link {
+    float: right;
+    height: 30px;
+    margin: 0;
+
+}
+.link-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    
+}
+.link ul li {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    color: black;
+    background-color: black;
+}
+.footer {
+    margin: 0;
+    background-color: black;
+    border: 5px solid;
+    font-family: 'Acme', sans-serif;    font-size: 36px;
+    color: white
+    
+}
